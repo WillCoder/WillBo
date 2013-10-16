@@ -39,6 +39,7 @@ import org.qii.weiciyuan.ui.userinfo.MyFavListFragment;
 import org.qii.weiciyuan.ui.userinfo.NewUserInfoFragment;
 import org.qii.weiciyuan.ui.userinfo.UserInfoActivity;
 
+import java.util.ArrayList;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 

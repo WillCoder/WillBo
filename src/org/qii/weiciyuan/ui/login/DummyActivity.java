@@ -2,6 +2,7 @@ package org.qii.weiciyuan.ui.login;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import org.qii.weiciyuan.support.utils.GlobalContext;
 import org.qii.weiciyuan.ui.interfaces.AbstractAppActivity;
 
@@ -29,7 +30,6 @@ public class DummyActivity extends AbstractAppActivity {
             Intent intent = new Intent(this, AccountActivity.class);
             startActivity(intent);
         }
-
         finish();
     }
 }
